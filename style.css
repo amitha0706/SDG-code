@@ -1,0 +1,147 @@
+[data-tab-content] {
+    display:none;
+}
+
+.active[data-tab-content]{
+    display:block;
+}
+
+body {
+    margin: 0;
+    background-color: #fff;
+    font-family: "Open Sans", sans-serif;
+    -webkit-font-smoothing: antialiased; 
+}
+  
+p {
+    float: left;
+    font-size: 12px;
+    line-height: normal; 
+}
+  
+.container {
+    width: 100%; 
+}
+
+.tabs {
+  display:table;
+  position: absolute;
+  width: 549px;
+  height: 40px;
+  left: 426px;
+  top: 77px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.tab {
+  display:table-cell;
+  box-sizing: border-box;
+  border: 1px solid #000000;
+}
+
+.tab:hover {
+  background: gray;
+  cursor: pointer;
+}
+.tab:focus {
+  outline-color: none;
+}
+
+.tab-content {
+  position: absolute;
+width: 673px;
+height: 145px;
+left: 364px;
+top: 167px;
+}
+
+#fitguide , #care {
+  position: absolute;
+width: 673px;
+height: 145px;
+left: 0px;
+top: 0px;
+
+font-family: OpenSans;
+font-size: 13px;
+line-height: 16px;
+/* or 123% */
+
+text-align: center;
+
+color: #323232;
+}
+
+#materials h2 {
+  position: absolute;
+  width: 97px;
+  height: 40px;
+  left: 0px;
+  top: 0px;
+  
+  font-family: OpenSans;
+  font-size: 35px;
+  line-height: 41px;
+  text-align: center;
+  
+  color: #323232;
+}
+
+#materials {
+  position: absolute;
+width: 286px;
+height: 301px;
+left: 16px;
+top: 134px;
+text-align: center;
+}
+#materials span {
+  position: absolute;
+width: 96px;
+height: 19px;
+left: 1px;
+top: 40px;
+
+font-family: OpenSans;
+font-size: 15px;
+line-height: 18px;
+text-align: center;
+
+color: #323232;
+}
+
+#materials hr {
+  position: absolute;
+left: 42.31%;
+right: 41.61%;
+top: 25.25%;
+bottom: 74.42%;
+
+border: 1px solid #000000;
+}
+
+.text1{
+  position: absolute;
+width: 97px;
+height: 59px;
+left: 0px;
+top: 0px;
+}
+
+.text2{
+  position: absolute;
+width: 86px;
+height: 59px;
+left: 100px;
+top: 0px;
+}
+
+.text3{
+  position: absolute;
+width: 89px;
+height: 61px;
+left: 195px;
+top: 0px;
+
+}
